@@ -5,17 +5,19 @@
 
 **Sum up 20 November's world news in one image** — make.fun bounty, $250 (top 50 share it), free entry.
 
-A newspaper front page, **"THE WORLD IN ONE DAY — FRIDAY 20 NOVEMBER 2026"**, summing up the day's world news in one 1024×1024 image. Built from reports filed as of early 20 November 2026 (UTC) — the day's news so far.
+A newspaper front page, **"THE WORLD IN ONE DAY — FRIDAY 20 NOVEMBER 2026"**, summing up the day's world news in one 1024×1024 image. Compiled from reports filed across the full day of 20 November 2026 (UTC) — the day's outcomes, not the morning's previews. This is the round-2 full-day refresh of the entry.
 
 ## The day's stories
 
-- **Lead:** Trump, Xi and Putin agree nuclear risk talks — their first summit in Shenzhen ends with a peace declaration; Ukraine tops the agenda.
-- Cyclone Akvan makes landfall in India (Odisha–Andhra coast)
-- Putin: no sea or energy truce after Ukraine hits the Crimean Bridge again
-- Iran steps up Hormuz tanker attacks as oil prices slide
-- Israel ends its Gaza ground operation; residents return
-- Anthropic soars 17% in its record Nasdaq debut
-- COP31 wraps up as the fossil-fuel phase-out is dropped from its text
+- **Lead:** Trump, Xi and Putin's first summit in Shenzhen ends with a four-point peace declaration — on UN reform, energy supplies, court immunity and nuclear risk — that says nothing of Ukraine, Iran or North Korea.
+- **Kyiv:** Russia's massive overnight strike — 400+ drones and 110 missiles, three Kyiv bridges damaged, nine killed — hours after the summit.
+- Cyclone Akvan makes landfall near Gopalpur, India, and weakens to a depression; no casualties, 372,000 evacuated.
+- A tanker is hit by a projectile off Oman and catches fire; a missile strikes Iran's Qeshm Island.
+- US Senate votes 51–48 against curbing Trump's Iran war powers; three Republicans break ranks, but the resolution fails.
+- Zelenskyy calls for four-party talks — Ukraine, Europe, the US and Russia together — after Europe wins a seat at the negotiations.
+- Israel ends its Gaza ground operation; residents return.
+- Anthropic slides ~9% on day two after its record Nasdaq debut, closing near $88, barely above the $83 IPO price.
+- COP31 talks overrun with no final deal as the fossil-fuel phase-out is dropped from its text; Kerch Bridge rail traffic resumes on one track.
 - Also today: Houthis hit four targets in Saudi Arabia; Somalia expels the UAE ambassador; Meta rethinks its 2030 net-zero goal; US auctions first deep-sea mining leases; UN expert hails the ICJ Myanmar genocide verdict; South Korea orders a retrial of ex-PM Han.
 
 ## How it runs
@@ -31,7 +33,7 @@ mkdir -p out out2 && MAKEFUN_OUTPUT_DIR=out node main.ts
                        MAKEFUN_OUTPUT_DIR=out2 node main.ts
 ```
 
-Two runs byte-identical (`cmp` clean), 1024×1024 PNG, well under 1 MiB.
+Two runs byte-identical (`cmp` clean), 1024×1024 PNG, 157,052 bytes — well under 1 MiB.
 
 ## Deadline
 
